@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  flex: 1;
+  margin: 0 5px;
+  background: #e0e0e0;
+  color: #333;
+}
+
+.filter-button:hover {
+  background: #ccc;
+}
+
+.view-box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo:last-child {
+  border-bottom: none;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-actions i {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #555;
+}
+
+.todo-actions i:hover {
+  color: #000;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="task6.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="title">Title :</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Please enter the title of task "
+        />
+      </div>
+      <div>
+        <label for="dueDate">Date :</label>
+        <input type="date" id="dueDate" name="dueDate" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <section class="container">
+      <nav class="filter">
+        <button class="filter-button">Completed</button>
+        <button class="filter-button">Incomplete</button>
+        <button class="filter-button">All</button>
+      </nav>
+
+      <div class="view-box"></div>
+    </section>
+    <script src="./dist/task6.js"></script>
+  </body>
+</html>
